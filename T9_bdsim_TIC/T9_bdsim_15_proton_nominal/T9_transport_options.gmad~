@@ -1,0 +1,12 @@
+! Sat, 02 Mar 2019 22:33:43 +0000
+! pybdsim.Builder Lattice, using pybdsim version 2.0.0 
+! OPTIONS DEFINITION
+
+option,	physicsList="em",
+	includeFringeFields=1, 
+	tunnelRadius=5*m, 
+	stopSecondaries=1, 
+	beampipeRadius=200*cm, 
+	samplerDiameter=200*cm, 
+	beampipeThickness=5*mm, 
+	outerDiameter=5*m;	

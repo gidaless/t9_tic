@@ -1,0 +1,12 @@
+! Sat, 02 Mar 2019 22:33:43 +0000
+! pybdsim.Builder Lattice, using pybdsim version 2.0.0 
+! Number of Elements:	50
+! Total length:		63.87m
+
+include T9_transport_components_air.gmad;
+include T9_transport_sequence.gmad;
+include T9_transport_beam.gmad;
+include T9_transport_options.gmad;
+
+
+sample, all;

@@ -1,0 +1,16 @@
+! Sat, 02 Mar 2019 22:33:52 +0000
+! pymadx.Builder Machine 
+! number of elements = 48
+! total length       = 63.87 m
+
+set, format="22.16e";
+
+call, file='T9_transport_beam.madx';
+
+call, file='T9_transport_components.madx';
+
+call, file='T9_transport_sequence.madx';
+
+
+twiss, save, betx=0.0373599003736, bety=0.00865051903114, file=T9_transport_electron.tfs;
+plot, haxis=s,vaxis=bety,file=plot;

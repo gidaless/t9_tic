@@ -1,0 +1,23 @@
+! Sat, 02 Mar 2019 22:33:43 +0000
+! pybdsim.Builder Lattice, using pybdsim version 2.0.0 
+! BEAM DEFINITION
+
+beam,   X0=0.0*m,
+        Xp0=0.0,
+	Y0=0.0*m,
+        Yp0=0.0,
+        alfx=0.0,
+	alfy=0.0,
+	betx=0.0373599003736*m,
+	bety=0.00865051903114*m,
+	dispx=0.0*m,
+	dispxp=0.0,
+	dispy=0.0*m,
+	dispyp=0.0,
+	distrType="gausstwiss",
+	emitx=6.0225e-07*m,
+	emity=2.89e-07*m,
+        energy=15.029316501387687*GeV,
+	particle="proton",
+	sigmaE=0.001,
+	offsetSampleMean=1;
